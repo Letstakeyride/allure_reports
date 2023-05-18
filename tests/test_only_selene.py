@@ -3,7 +3,6 @@ from selene.support.conditions import be
 from selene import browser
 
 
-
 def test_github():
     browser.open_url("https://github.com/")
 

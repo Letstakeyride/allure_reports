@@ -15,4 +15,4 @@ def test_github():
         browser.element(by.link_text("Letstakeyride/test_for_qa_guru")).click()
         browser.element("#issues-tab").click()
     with allure.step('Проверяем наличие issue'):
-     browser.element(by.partial_text("#1")).should(be.visible)
+        browser.element(by.partial_text("#1")).should(be.visible)
