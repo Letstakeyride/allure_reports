@@ -4,7 +4,7 @@ from selene import browser
 
 
 def test_github():
-    browser.open_url("https://github.com/")
+    browser.open("https://github.com/")
 
     browser.element(".header-search-input").click()
     browser.element(".header-search-input").send_keys("Letstakeyride/test_for_qa_guru")

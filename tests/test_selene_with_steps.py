@@ -6,7 +6,7 @@ from selene import browser
 
 def test_github():
     with allure.step('Открываем гит'):
-        browser.open_url("https://github.com/")
+        browser.open("https://github.com/")
     with allure.step('Ищем репозиторий'):
         browser.element(".header-search-input").click()
         browser.element(".header-search-input").send_keys("Letstakeyride/test_for_qa_guru")
