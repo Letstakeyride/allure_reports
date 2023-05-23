@@ -5,6 +5,7 @@ from selene import browser
 
 
 def test_github(setup_browser):
+    browser = setup_browser
     with allure.step('Открываем гит'):
         browser.open("https://github.com/")
     with allure.step('Ищем репозиторий'):

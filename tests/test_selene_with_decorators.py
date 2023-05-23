@@ -4,7 +4,7 @@ from selene.support.conditions import be
 from selene import browser
 
 
-def test_decorator_steps(setup_browser):
+def test_decorator_steps():
     open_main_page()
     search_for_repository("Letstakeyride/test_for_qa_guru")
     open_issue_tab()
@@ -13,6 +13,7 @@ def test_decorator_steps(setup_browser):
 
 @allure.step("Открываем главную страницу")
 def open_main_page():
+
     browser.open("https://github.com")
 
 

@@ -11,6 +11,7 @@ from selene import browser
 @allure.story("Ищем issue в репозитории git")
 @allure.link("https://github.com", name="Testing")
 def test_github(setup_browser):
+    browser = setup_browser
     with allure.step('Открываем гит'):
         browser.open("https://github.com/")
     with allure.step('Ищем репозиторий'):
