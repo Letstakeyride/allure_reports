@@ -10,7 +10,7 @@ from selene import browser
 @allure.feature("Поиск в git")
 @allure.story("Ищем issue в репозитории git")
 @allure.link("https://github.com", name="Testing")
-def test_github():
+def test_github(setup_browser):
     with allure.step('Открываем гит'):
         browser.open("https://github.com/")
     with allure.step('Ищем репозиторий'):

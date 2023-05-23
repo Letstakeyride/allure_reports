@@ -3,7 +3,7 @@ from selene.support.conditions import be
 from selene import browser
 
 
-def test_github():
+def test_github(setup_browser):
     browser.open("https://github.com/")
 
     browser.element(".header-search-input").click()
