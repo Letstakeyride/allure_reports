@@ -1,5 +1,5 @@
 import os
-import attach
+from  utils import attach
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
