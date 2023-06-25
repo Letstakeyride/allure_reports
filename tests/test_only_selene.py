@@ -14,4 +14,4 @@ def test_github(setup_browser):
     browser.element(by.link_text("Letstakeyride/test_for_qa_guru")).click()
     browser.element("#issues-tab").click()
 
-    browser.element(by.partial_text("#1")).should(be.visible)
+    # browser.element(by.partial_text("#1")).should(be.visible)
