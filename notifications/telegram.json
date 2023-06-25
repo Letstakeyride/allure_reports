@@ -1,12 +1,12 @@
 {
   "base": {
-    "project": "QA_Guru_python_5_HW_14_Telegram",
-    "environment": "test env",
-    "comment": "test comment",
-    "reportLink": "",
-    "language": "en",
+    "project": "Jenkins_tests_qa_guru_lesson_12",
+    "environment": "env",
+    "comment": "some comment",
+    "reportLink": "https://jenkins.autotests.cloud/job/Jenkins_tests_qa_guru_lesson_12/46/allure/",
+    "language",: "ru",
     "messenger": "telegram",
-    "allureFolder": "build/allure-report/widgets/",
+    "allureFolder": "allure-report",
     "enableChart": true
   },
   "telegram": {
